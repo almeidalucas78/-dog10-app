@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Dog Center
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+
+
+    <ion-card-header>
+      <ion-card-subtitle class="posicaoTitle">Simple Hotdog</ion-card-subtitle>
+      <ion-card-title> <img src='./assets/img/SimpleHotdog.jfif' /></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p class="formataPreco">R$3,00</p>
+      <p class="legendaHotdog">O classico Hotdog voltou!!!</p>
+      <ion-button expand="block" color="tertiary" [routerLink] = "['/finalizar-pedido']">
+        <ion-icon name="card" > </ion-icon> Comprar
+      </ion-button>
+    </ion-card-content>
+  </ion-card><br>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle class="posicaoTitle"> Hot Wheels</ion-card-subtitle>
+      <ion-card-title> <img src='./assets/img/hot wheels.jpg' /></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p class="formataPreco">R$4,50</p>
+      <p class="legendaHotdog">Hotdog infantil, para crianças que estão sem fome, coma com a imaginação!</p>
+      <ion-button expand="block" color="tertiary"> <ion-icon name="card"></ion-icon> Comprar
+      </ion-button>
+
+    </ion-card-content>
+  </ion-card><br>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle class="posicaoTitle"> Hotdog Gourmet</ion-card-subtitle>
+      <ion-card-title> <img src='./assets/img/Hotdog Gurmet.jpg' /></ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p class="formataPreco">R$10,00</p>
+      <p class="legendaHotdog">O hotdog classico da casa, com tudo que tem direito!!!</p>
+      <ion-button expand="block" color="tertiary"><ion-icon name="card"></ion-icon> Comprar 
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

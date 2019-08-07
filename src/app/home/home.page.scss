@@ -1,0 +1,31 @@
+ion-content {
+    --background: linear-gradient(135deg, #311b92 , #7c4dff) 
+
+}
+.posicaoTitle{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(72, 38, 226);
+}
+ion-card{
+    background: white;    
+}
+ion-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    color: rgb(72, 38, 226);
+
+}
+.formataPreco{
+    color:black;
+}
+.legendaHotdog{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;    
+}
