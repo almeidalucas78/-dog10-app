@@ -1,9 +1,28 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>finalizar-pedido</ion-title>
+    <ion-title>Finalizar pedido</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
+  <div class="ion-padding">
+    <div>
+      <ion-card>
+        <img src={{img}} />
+        <div class="card-title">{{titulo}}</div>
+        <div class="card-subtitle">{{preco}}</div>
 
+        <ion-item>
+            <ion-label position="floating">
+              Digite seu CEP?
+            </ion-label>
+            <ion-input #cep></ion-input>
+          </ion-item>
+          <div class="ion-padding">
+            <ion-button class="botaoBusca"color="tertiary" expand='block' (click)="buscar(cep)">Finalizar Pedido</ion-button>
+
+          </div>
+      </ion-card>
+    </div>
+  </div>
 </ion-content>

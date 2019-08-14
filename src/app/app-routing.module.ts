@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
-  { path: 'finalizar-pedido', loadChildren: './finalizar-pedido/finalizar-pedido.module#FinalizarPedidoPageModule' },
+  { path: 'finalizar-pedido/:id/:img/:preco', loadChildren: './finalizar-pedido/finalizar-pedido.module#FinalizarPedidoPageModule' },
 ];
 
 @NgModule({
